@@ -1,0 +1,36 @@
+Servicyuser dont have an inverse ralationship
+
+
+$table->time('time_start')->nullable();
+$table->time('time_end')->nullable();
+
+time casting
+
+
+
+
+$table->datetime('start')->nullable();
+            $table->datetime('end')->nullable();
+
+
+
+Problem in user revisionable
+
+
+General calendar should not be in the dashboard layout
+
+
+
+
+
+
+
+
+
+
+protected $revisionNullString = 'nothing';
+protected $revisionUnknownString = 'unknown';
+
+
+
+spec_user table have soft delete
